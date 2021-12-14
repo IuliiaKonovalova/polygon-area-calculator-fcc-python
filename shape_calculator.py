@@ -33,10 +33,15 @@ class Rectangle:
         """
         Returns the perimeter of the rectangle
         """
-        perimeter = (2 * self.width + 2 * self.height)
+        perimeter = 2 * self.width + 2 * self.height
         return perimeter
 
-    
+    def get_diagonal(self):
+        """
+        Returns the diagonal of the rectangle
+        """
+        diagonal = (self.width ** 2 + self.height ** 2) ** 0.5
+        return diagonal
 
 
 

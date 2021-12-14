@@ -43,6 +43,17 @@ class Rectangle:
         diagonal = (self.width ** 2 + self.height ** 2) ** 0.5
         return diagonal
 
+    def get_picture(self):
+        """
+        Returns a picture of the rectangle, if the width and height is < 50
+        If height or/and width is > 50, it returns: "Too big for picture."
+        """
+        if self.width > 50 or self.height > 50:
+            return "Too big for picture"
+        else:
+            picture = ("*" * self.width + "\n") * self.height
+            return picture
+
 
 
 # class Square:

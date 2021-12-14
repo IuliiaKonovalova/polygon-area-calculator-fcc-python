@@ -54,6 +54,12 @@ class Rectangle:
             picture = ("*" * self.width + "\n") * self.height
             return picture
 
+    def get_amount_inside(self, shape):
+        """
+        checks how many given shapes could fit into initial shape
+        """
+        return int(self.get_area()/shape.get_area())
+
 
 
 # class Square:

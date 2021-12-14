@@ -1,3 +1,6 @@
+from typing import Sized
+
+
 class Rectangle:
     """
     Consist following methods: set_width, set_height, get_area,
@@ -73,4 +76,10 @@ class Square(Rectangle):
         """
         self.width = side
         self.height = side
-        self.side = side
+
+    def set_side(self, side):
+        """
+        Sets sides to the width and hight 
+        """
+        self.width = side
+        self.height = side

@@ -22,7 +22,12 @@ class Rectangle:
         """
         self.height = height
 
-    
+    def get_area(self):
+        """
+        Returns area by multiplying width by height
+        """
+        area = self.width * self.height
+        return area
 
 
 

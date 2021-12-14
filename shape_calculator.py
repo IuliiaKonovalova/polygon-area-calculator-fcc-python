@@ -83,3 +83,10 @@ class Square(Rectangle):
         """
         self.width = side
         self.height = side
+
+    def __str__(self):
+        """
+        Returns string to represent the size of the square side
+        """
+        return f'Square(side={self.width})'
+

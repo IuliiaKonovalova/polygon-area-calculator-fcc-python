@@ -52,7 +52,7 @@ class Rectangle:
         If height or/and width is > 50, it returns: "Too big for picture."
         """
         if self.width > 50 or self.height > 50:
-            return "Too big for picture"
+            return "Too big for picture."
         else:
             picture = ("*" * self.width + "\n") * self.height
             return picture

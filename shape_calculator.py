@@ -60,6 +60,9 @@ class Rectangle:
         """
         return int(self.get_area()/shape.get_area())
 
+def __str__ (self):
+    return f'Rectangle(width={self.width}, height={self.height})'
+
 
 
 # class Square:

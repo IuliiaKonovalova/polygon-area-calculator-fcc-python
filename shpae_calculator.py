@@ -10,5 +10,11 @@ class Rectangle:
         self.width = width
         self.height = height
 
+    def set_width(self, width):
+        """
+        Sets width
+        """
+        self.width = width
+
 
 # class Square:

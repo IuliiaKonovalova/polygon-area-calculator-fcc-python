@@ -29,6 +29,15 @@ class Rectangle:
         area = self.width * self.height
         return area
 
+    def get_perimeter(self):
+        """
+        Returns the perimeter of the rectangle
+        """
+        perimeter = (2 * self.width + 2 * self.height)
+        return perimeter
+
+    
+
 
 
 # class Square:

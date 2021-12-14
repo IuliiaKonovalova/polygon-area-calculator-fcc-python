@@ -60,9 +60,17 @@ class Rectangle:
         """
         return int(self.get_area()/shape.get_area())
 
-def __str__ (self):
-    return f'Rectangle(width={self.width}, height={self.height})'
-
-
-
-# class Square:
+    def __str__ (self):
+        return f'Rectangle(width={self.width}, height={self.height})'
+class Square(Rectangle):
+    """
+    Subclass of Rectangle class
+    """
+    def __init__(self, side):
+        """
+        Stores the single parameter side into both width and height attributes
+        from the main class - Rectangle
+        """
+        self.width = side
+        self.height = side
+        self.side = side

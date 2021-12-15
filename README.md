@@ -1,6 +1,6 @@
 # polygon-area-calculator
 
-This is the second project of [FreeCodeCamp](https://www.freecodecamp.org) Python certificate.
+This is the fourth project of [FreeCodeCamp](https://www.freecodecamp.org) Python certificate.
 
 ---
 
